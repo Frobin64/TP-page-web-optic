@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e716a;
+  padding: 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.list ul {
+  list-style: none;
+  display: flex;
+  gap: 200px;
+}
+
+.list ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.list ul li a {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: font-size 0.5s ease;
+}
+
+.list ul li a:hover {
+    font-size: 25px;
+}
+
+.title {
+  margin: 20px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  color: black;
+  margin-bottom: 50px;
+}
+
+main {
+  flex-wrap: wrap;
+}
+
+a:hover {
+  font-size: 30px;
+}
+
+.blc1 {
+  display: flex;
+  border-radius: 20px;
+  background-color: rgb(255, 249, 241);
+  margin-bottom: 80px;
+}
+
+.blc1 img {
+  width: 120% ;
+  border-radius: 20px;
+}
+
+.blc1 p {
+  display: flex;
+  align-items: center;
+  margin: 70px;
+  line-height: 200%;
+}
+
+.blc2 {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(255, 249, 241);
+  margin-bottom: 80px;
+}
+
+.text {
+  margin: 70px;
+}
+
+.blc2 img {
+  width: 51%;
+}
+
+.text h2 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 70px;
+  margin: 60px;
+}
+
+
+.text p {
+  margin: 60px;
+  line-height: 200%;
+}
+
+.text a {
+  margin: 60px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  transition: font-size 0.5s;
+}
+
+.blc3 {
+  display: flex;
+  background-color: rgb(255, 249, 241);
+  margin-bottom: 80px;
+}
+
+.blc3 img {
+  width: 50% ;
+}
+
+.text2 {
+  align-content: center;
+  margin: 70px;
+  line-height: 200%;
+}
+
+.text2 h2 {
+  display: flex;
+  align-items: flex-start;
+  
+  font-size: 70px;
+  margin: 60px;
+}
+
+.text2 p {
+  display: flex;
+  margin: 60px;
+  line-height: 200%;
+  justify-content: flex-start;
+}
+
+.text2 a {
+  margin: 60px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  transition: font-size 0.5s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
